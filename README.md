@@ -18,3 +18,5 @@ Este bot é apenas para uso educacional ou de pesquisa. O uso indevido pode viol
 Utilize com cautela para evitar ser banido ou penalizado pelo LinkedIn.
 
 Respeite as políticas de privacidade e ética ao automatizar interações em plataformas online.
+
+WORK IN PROGRESS

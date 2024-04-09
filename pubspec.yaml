@@ -1,5 +1,5 @@
 name: linkedinbot
-description: "A new Flutter project."
+description: "LinkedIn Connection Bot"
 publish_to: 'none'
 version: 0.1.0
 
@@ -14,6 +14,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  window_manager: ^0.3.7
+  flutter_riverpod: ^2.4.9
+  google_fonts: ^6.2.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+     - assets/
