@@ -16,15 +16,15 @@ void main() async {
   await windowManager.ensureInitialized();
 
   WindowOptions windowOptions = const WindowOptions(
-    size: Size(480, 540),
+    size: Size(480, 720),
     center: true,
     backgroundColor: Colors.transparent,
     skipTaskbar: false,
     titleBarStyle: TitleBarStyle.normal,
-    alwaysOnTop: true,
+    alwaysOnTop: false,
   );
   windowManager.waitUntilReadyToShow(windowOptions, () async {
-    await windowManager.setTitle('LinkedIn Connection Bot');
+    await windowManager.setTitle('LinkedIn Connections Bot');
     await windowManager.setIcon('assets/icon.png');
     await windowManager.setAlignment(Alignment.centerRight);
     await windowManager.setResizable(false);
